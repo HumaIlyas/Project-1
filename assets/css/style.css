@@ -16,7 +16,7 @@ body {
 
 h1, h2, h3 {
     font-family: Oswald, sans-serif;
-    letter-spacing: 0px;
+    letter-spacing: 1px;
     color: black;
     text-transform: capitalize;
 }
@@ -55,4 +55,34 @@ h1, h2, h3 {
 
 .active {
     border-bottom: 1px solid black;
+}
+
+/* hero image */
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+
+    /* animates zoom effect of hero image*/
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image*/
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(2.2);
+    }
 }
