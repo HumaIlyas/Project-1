@@ -128,3 +128,16 @@ footer {
     padding: 1%;
     color: blue;
 }
+
+/* gallery */
+
+#images {
+    clear: both;
+    column-count: 3;
+    column-gap: 0;
+    line-height: 0;
+}
+
+#images > img {
+    width: 100%;
+}
