@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
+* {
+    margin: 0;
+    border: none;
+    padding: 0;
+}
+
+body {
+    font-family: lato, sans-serif;
+    font-weight: 300;
+    color: black;
+}
+
+/* headings and logo */
+
+h1, h2, h3 {
+    font-family: Oswald, sans-serif;
+    letter-spacing: 0px;
+    color: black;
+    text-transform: capitalize;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 40px;
+}
