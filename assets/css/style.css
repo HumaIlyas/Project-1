@@ -108,3 +108,23 @@ h1, h2, h3 {
 #cover-text h2, h3 {
     color: rgb(109, 10, 10);
 }
+
+/* footer */
+footer {
+    height: 75px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 1%;
+    color: blue;
+}
