@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Body and Mind Center for learning body and mind self-improvement techniques in Delft, The Netherlands">
+    <meta name="description" content="Body and Mind Center for learning body and mind self-improvement techniques in Delft, The Netherlands">
     <meta name="keywords" content="self-improvement techniques, body and mind center, delft, the netherlands">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Yoga For Self-improvement</title>
@@ -39,36 +38,58 @@
         <div id="contact-text">
             <h2>Get in touch!</h2>
             <div>
-                <span style="font-weight:bold">Phone:</span>
+                <span class="bold">Phone:</span>
                 <span>+31 15 218 3642</span>
             </div>
             <div>
-                <span style="font-weight:bold">Email:</span>
-                <span style="text-transform:lowercase">email@delftbandmcenter.com</span>
+                <span class="bold">Email:</span>
+                <span class="lowercase">email@delftbandmcenter.com</span>
             </div>
             <h3>Address</h3>
             <p>Delft Body & Mind Center<br>Delftselaan 15<br>Delft, The Netherlands</p>
         </div>
     </section>
+    <section id="form">
+        <form class="contactus-form" method="POST" action="https://formdump.codeinstitute.net/">
+            <h2>Let's plan body & mind self-improvement! <i class="fa-solid fa-brain"></i></h2>
+            <label for="fname" class="bold">First Name</label>
+            <input id="fname" class="input-text" type="text" name="first_name" placeholder="First Name" required>
+            <label for="lname" class="bold">Last Name</label>
+            <input id="lname" class="input-text" type="text" name="last_name" placeholder="Last Name" required>
+            <label for="email" class="bold">Email Address</label>
+            <input id="email" class="input-text" type="email" name="email_address" placeholder="E-mail" required>
+            <label class="bold">Select Lesson</label>
+            <div class="input-radio">
+                <label for="hot-yoga">Hot Yoga</label>
+                <input id="hot-yoga" type="radio" name="yoga_preference" value="hot-yoga" required>
+                <label for="slow-flow-meditation">Slow Flow & Meditation</label>
+                <input id="slow-flow-meditation" type="radio" name="yoga_preference" value="slow-flow-meditation">
+                <label for="yin">Yin (Not heated)</label>
+                <input id="yin" type="radio" name="yoga_preference" value="yin">
+            </div>
+            <div>
+                <label for="message" class="bold">Message</label>
+                <textarea id="message" class="message" name="subject" placeholder="Write message here..."></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </section>
     <footer>
         <ul class="social-networks">
             <li>
-                <a href="http://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+                <a href="http://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
             </li>
             <li>
-                <a href="http://twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i
-                        class="fa-brands fa-square-twitter"></i></a>
+                <a href="http://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-twitter"></i></a>
             </li>
             <li>
-                <a href="http://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i
-                        class="fa-brands fa-instagram"></i></a>
+                <a href="http://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
             </li>
             <li>
-                <a href="http://youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+                <a href="http://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
             </li>
         </ul>
     </footer>
