@@ -71,7 +71,7 @@ h1, h2, h3 {
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
 
-    /* animates zoom effect of hero image*/
+    /* animates zoom effect on hero image*/
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -130,7 +130,6 @@ footer {
 }
 
 /* gallery */
-
 #images {
     clear: both;
     column-count: 3;
@@ -140,4 +139,34 @@ footer {
 
 #images > img {
     width: 100%;
+}
+
+/* contact us */
+#contact-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#contact-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/strengthen-pelvic-floor-muscles.jpg') no-repeat center center;
+
+    /* animates zoom effect on contact us page*/
+    animation-name: contact-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for image on contact us page*/
+@keyframes contact-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(2.2);
+    }
 }
