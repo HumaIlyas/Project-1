@@ -109,6 +109,152 @@ h1, h2, h3 {
     color: rgb(109, 10, 10);
 }
 
+/* yoga benefits & techniques */
+
+#yoga-bens-techs {
+    height: 1600px;
+}
+
+#bens-techs-left {
+    padding-top: 10px;
+    width: 40%;
+    float: left;
+    margin-left: 200px;
+    margin-bottom: 75px;
+    margin-top: 25px;
+}
+
+#bens-techs-right {
+    padding-top: 10px;
+    width: 40%;
+    float: right;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+
+#bens-techs-left #bens-techs-right {
+    display: inline-block;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+.bens-techs-heading {
+    width: 100%;
+    line-height: 20px;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.bens-techs-heading h2 {
+    text-transform: none;
+}
+
+.bens-techs-heading h3 {
+    text-transform: none;
+    margin: 10px 5px;
+    margin-left: 0;
+    color: inherit;
+}
+
+#reasons {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 200%;
+}
+
+#circle-container-tree-pose {
+    width: 225px;
+    height: 270px;
+    padding: 10px;
+    border-style: solid;
+    border-color: rgb(199, 197, 197);
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+#circle-tree-pose-bg {
+    background: url('../images/tree-pose-demo.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#circle-container-cat-cow-pose {
+    width: 322px;
+    height: 224px;
+    padding: 5px;
+    border-style: solid;
+    border-color: rgb(199, 197, 197);
+    border-width: 1px;
+    border-radius: 5%;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+#circle-cat-cow-pose-bg {
+    background: url('../images/cat-cow-pose-demo.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 5%;
+}
+
+#circle-container-down-dog-pose {
+    width: 260px;
+    height: 182px;
+    padding: 5px;
+    border-style: solid;
+    border-color: rgb(199, 197, 197);
+    border-width: 1px;
+    border-radius: 5%;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+#circle-down-dog-pose-bg {
+    background: url('../images/downward-dog-pose-demo.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 5%;
+}
+
+#circle-container-corpse-pose {
+    width: 360px;
+    height: 195px;
+    padding: 5px;
+    border-style: solid;
+    border-color: rgb(199, 197, 197);
+    border-width: 1px;
+    border-radius: 5%;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+#circle-corpse-pose-bg {
+    background: url('../images/corpse-pose-demo.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 5%;
+}
+
+#circle-container-legs-up-pose {
+    width: 260px;
+    height: 279px;
+    padding: 5px;
+    border-style: solid;
+    border-color: rgb(199, 197, 197);
+    border-width: 1px;
+    border-radius: 5%;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+#circle-legs-up-pose-bg {
+    background: url('../images/legs-up-the-wall-pose-demo.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 5%;
+}
+
 /* footer */
 footer {
     height: 75px;
