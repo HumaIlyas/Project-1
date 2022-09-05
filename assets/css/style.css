@@ -110,7 +110,6 @@ h1, h2, h3 {
 }
 
 /* yoga benefits & techniques */
-
 #yoga-bens-techs {
     height: 1600px;
 }
@@ -253,6 +252,70 @@ hr {
     background: url('../images/legs-up-the-wall-pose-demo.jpg') no-repeat center center;
     height: 100%;
     border-radius: 5%;
+}
+
+/* about us and prices*/
+#about {
+    height: 260px;
+    background-color: rgb(173, 216, 230, 0.6);
+    margin-top: 20px; 
+    margin-left: 125px;
+    width: 80%;
+    padding: 15px;
+    border: 2px solid rgb(145, 209, 230);
+    border-radius: 2%;
+}
+
+.about-heading, .prices-heading {
+    font-size: 200%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#provisions {
+    text-align: center;
+    font-size: 120%;
+    margin: 25px;
+}
+
+#offers, .prices-gps{
+    text-align: left;
+    padding-top: 10px;
+    margin-left: 50px;
+    line-height: 30px;
+    font-size: 120%;
+}
+
+#offers-list, .prices-list{
+    text-align: left;
+    padding-top: 10px;
+    margin-left: 75px;
+    line-height: 30px;
+    font-size: 100%;
+}
+
+#prices {
+    margin: 10px 30px 20px 70px;
+    width: 90%;
+}
+
+#prices div {
+    background-color: rgb(173, 216, 230, 0.6);
+    width: 50%;
+    height: 260px;
+    float: left;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid rgb(145, 209, 230);
+    box-sizing: border-box;
+    border-radius: 2%;
+}
+
+.table {
+    font-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 22px;
 }
 
 /* footer */
