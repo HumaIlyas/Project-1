@@ -531,15 +531,15 @@ input[type=submit] {
     padding: 15px 30px 15px 30px;
     text-align: center;
     font-size: 100%;
-    background-color: #f35050;
-    color: #fafafa;
+    background-color: #f69e9e;
+    color: rgb(109, 10, 10);
     display: block;
     float: right;
 }
 
 input[type=submit]:hover {
-    background-color: #f69e9e;
-    color: rgb(109, 10, 10);
+    background-color: #f35050;
+    color: #fafafa;
 }
 
 input[type=reset] {
