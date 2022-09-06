@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.google.com/');
 
 * {
     margin: 0;
@@ -16,7 +16,6 @@ body {
 
 h1, h2, h3 {
     font-family: Oswald, sans-serif;
-    letter-spacing: 2px;
     color: black;
     text-transform: capitalize;
 }
@@ -91,7 +90,6 @@ h1, h2, h3 {
 #cover-text {
     font-size: 100%;
     font-family: Oswald, sans-serif;
-    letter-spacing: 2px;
     line-height: 40px;
     text-transform: capitalize;
     text-align: center;
@@ -361,7 +359,7 @@ hr {
     box-sizing: border-box;
 }
 
-#lessons h2, h3 {
+#lessons h2, #lessons h3 {
     color: rgb(53, 9, 9);
     margin: 10px;
 }
@@ -440,7 +438,6 @@ footer {
 #contact-text {
     font-size: 120%;
     font-family: Oswald, sans-serif;
-    letter-spacing: 2px;
     line-height: 30px;
     text-transform: capitalize;
     text-align: center;
