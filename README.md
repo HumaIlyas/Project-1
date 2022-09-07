@@ -1,108 +1,123 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Yoga For Self-improvement
+Yoga For Self-improvement is a site for users who are interested in learning body and mind self-improvement techniques to keep themselves fit as well as looking for a place for socialization. The goal of the site is to motivate and teach user’s specific body and mind self-improvement techniques in Delft, The Netherlands.
 
-Welcome HumaIlyas,
+{screen shots of all pages on different screen sizes}
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features
+### Navigation Bar
+The full responsive navigation bar is featured on all three pages to allow for easy navigation from page to page across all devices.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<ul>
+    <li>On the left side is logo, which can be used as navigation link to the main page.</li>
+    <li>On the right side are links to the Home, Gallery and Contact Us pages.</li>
+</ul>
+screen shot for navigation bar
+<img src="assets/images/nav-bar.jpg" alt="navigation bar">
 
-## Gitpod Reminders
+### Home
+<ul>
+    <li>The home page includes a photograph with cover text for the users to get information about the location of Delft Body & Mind Center.</li>
+    <li>This inclusion of an eye-catching animation draws the attention of yoga lovers to Yoga for Self-improvement.</li>
+</ul>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+{Home page screen shot}
 
-`python3 -m http.server`
+### Benefits & Techniques Section
+The benefits and techniques section provides information about the benefits and techniques of yoga. In this section the types of yoga pose with description is also provided to get body and mind self-improvement. 
 
-A blue button should appear to click: _Make Public_,
+{screen shots of benefits section}
 
-Another blue button should appear to click: _Open Browser_.
+### About Us
+About Us section provides information about the provisions and opportunities for yoga lovers at Delft Body & Mind Center. The different types of lessons and prices for classes and cards are also given in this section.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+{screen shots of about us section}
 
-A blue button should appear to click: _Make Public_,
+### Prices
+This section provides information about the classes and cards for the yoga lessons as well as the validity of the cards.
 
-Another blue button should appear to click: _Open Browser_.
+{screen shots of Prices}
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Lessons 
+This section provides information about the yoga lessons available on different days of the week as well as the possibility of socialization with the yoga lovers at the weekend.
 
-To log into the Heroku toolbelt CLI:
+{screen shots of lessons} 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### The Footer
+The footer section is consistent on all pages and includes links to the relevant social media sites for Yoga For Self-improvement.
+<ul>
+    <li>The links will open in a separate tab in a browser to allow easy navigation for the users.</li>
+    <li>The footer is useful for yoga seekers & yoga lovers to get connected with the community for socialization through social networks.</li>
+</ul>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+{screen shots of footer section}
 
-------
+### Gallery
+The gallery page will provide images to the yoga seekers to have some information about yoga poses. The yoga seekers will be able to identify the types of poses according to their needs.
 
-## Release History
+{screen shots of gallery section}
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Contact Us 
+This page will allow yoga seekers to get connected to Yoga for Self-improvement to start learning yoga techniques and socialize with other yoga seekers & yoga lovers.
+<ul>
+    <li>Yoga seekers will be able to select among the types of lessons we offer at Delft Body & Mind Center.</li>
+    <li>Yoga seekers & yoga lovers will be asked to submit their first name, last name, email address, and message to the administration.</li>
+</ul> 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+{screen shots of contact us section}
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Technologies used
+Different technologies were used to complete the contents of Yoga for Self-improvement website. 
+<ul>
+    <li>GitHub</li> 
+    As a software hosting platform to keep project in a remote location.
+    <li>Git</li> 
+    As a version-control system tracking.
+    <li>Gitpod</li>  
+    As a development hosting platform.
+    <li>HTML5</li>
+    As a structure language.
+    <li>CSS</li>
+    As a style language.
+    <li>Font Awesome</li>
+    As an icon library for icons used in benefits of yoga section, social links and Contact Us page.
+</ul>
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Validator testing
+Yoga For Self-improvement is validated for a code using two websites.
+<ul>
+    <li>HTML</li>
+    No errors were found when passing through the official "The W3C Markup Validation Service": https://validator.w3.org/
+    <li>CSS</li>
+    No errors were found when passing through the official "The W3C CSS Validation Service": https://jigsaw.w3.org/css-validator/ 
+    <li>Accessibility</li>
+    The colors and fonts chosen are easy to read and accessible, which are validated by running the website through lighthouse and devtools.
+</ul>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Issues found during site development
+Add information here.....
+## Deployment
+The website was deployed on GitHub pages. Gitpod was used as a development environment where all the changes were committed to git version control system. The push command was used in Gitpod to save changes into GitHub.
+The following steps were taken to deploy the website:
+<ul>
+    <li>Open the GitHub repository, navigate to the Settings tab</li>
+    <li>From the source section, select the Main Branch</li>
+    <li>Click save and page was deployed after auto-refresh to indicate the successful deployment</li>
+</ul>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Link to Yoga For Self-improvement
+The live link can be found here:
+    https://****.html
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Credits
+To complete the contents of Yoga for Self-improvement website, Code Institute student template was used gitpod full template, as well as the information is collected from different sources. 
+### Content
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+## Media
+<ul>
+<li>The images used on the Home, Gallery and Contact Us pages were taken from https://images.google.nl/</li>
+</ul>
