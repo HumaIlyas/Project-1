@@ -11,6 +11,7 @@ The full responsive navigation bar is featured on all three pages to allow for e
     <li>On the left side is logo, which can be used as navigation link to the main page.</li>
     <li>On the right side are links to the Home, Gallery and Contact Us pages.</li>
 </ul>
+
 screen shot for navigation bar
 <img src="assets/images/nav-bar.jpg" alt="navigation bar">
 
@@ -93,8 +94,13 @@ Yoga For Self-improvement is validated for a code using two websites.
     The colors and fonts chosen are easy to read and accessible, which are validated by running the website through lighthouse and devtools.
 </ul>
 
+{screen shots for accessibility testing}
+
 ## Issues found during site development
 Add information here.....
+
+{Screen shots to show issues}
+
 ## Deployment
 The website was deployed on GitHub pages. Gitpod was used as a development environment where all the changes were committed to git version control system. The push command was used in Gitpod to save changes into GitHub.
 The following steps were taken to deploy the website:
@@ -105,19 +111,21 @@ The following steps were taken to deploy the website:
 </ul>
 
 ### Link to Yoga For Self-improvement
-The live link can be found here:
-    https://****.html
+The live link can be found here: https://humailyas.github.io/Project-1/
 
 ## Credits
-To complete the contents of Yoga for Self-improvement website, Code Institute student template was used gitpod full template, as well as the information is collected from different sources. 
+To complete the contents of Yoga for Self-improvement website, Code Institute student template was used gitpod full template (https://github.com/Code-Institute-Org/gitpod-full-template), as well as the information is collected from different sources. 
 ### Content
 <ul>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>The text for the benefits of yoga for the Home page was taken from: https://www.hopkinsmedicine.org/health/wellness-and-prevention/9-benefits-of-yoga</li>
+    <li>The types of yoga lessons were selected by getting information from: https://inspireyoga.com</li>
+    <li>The temperature of Hot Yoga was selected by getting information from: https://www.yogapedia.com/definition/10696/hot-yoga<li>
+    <li>The temperature of slow flow & meditation was selected by getting information from: https://www.yogamoves.nl/class-styles/slow-flow</li>
+    <li>The information about prices for yoga lessons and cards was taken from: https://www.yogashala.nl/en/prices/</li>
+    <li>The icons used in the benefits and techniques of yoga section, footer, and contact us form were taken from: https://fontawesome.com/</li>
 </ul>
 
 ## Media
 <ul>
-<li>The images used on the Home, Gallery and Contact Us pages were taken from https://images.google.nl/</li>
+<li>The images used on the Home, Gallery and Contact Us pages were taken from: https://images.google.nl/</li>
 </ul>
