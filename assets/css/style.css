@@ -478,7 +478,6 @@ footer {
 }
 
 /* contact us form */
-
 #form {
     height: 800px;
 }
@@ -578,150 +577,81 @@ input[type=reset] {
     display: inline-block;
 }
 
-/* Media queries*/
-/* for larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-    #yoga-bens-techs {
-        height: 1450px;
-        margin: 0 auto;
-    }
-    
-    #bens-techs-left {
-        margin-left: 100px;
-        margin-bottom: 27px;
-    }
-    
-    #bens-techs-right {
-        margin-right: 25px;
-    }
-
-    #about {
-        width: 94%;
-    }
-
-    #prices {
-        margin: 0px 30px 20px 60px;
-        width: 90%;
-    }
-
-    .contactus-form {
-        left: 25%;
-    }
-}
-
-/* for medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 20px;
-    }
-
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    /* cover on home page*/
     #cover-text {
-        left: 25px;
+        right: 100px;
+    }
+    
+    /* yoga benefits & techniques */
+    .bens-techs-left {
+        width: 75%;
+        margin: 10px 150px 10px 150px;
+    }
+    
+    .bens-techs-right {
+        width: 75%;
+        margin: 10px 150px 10px 150px;
     }
 
-    #yoga-bens-techs {
-        height: 1550px;
-    }
-
-    #about-us {
-        height: 900px;
-    }
-
+    /* about us */
     #about {
-        width: 92%;
+        width: 93%;
     }
 
+    .about-heading {
+        margin-bottom: 20px;
+    }
     #provisions {
         line-height: 30px;
+        margin-bottom: 15px;
     }
 
     #offers {
-        margin-left: 150px;
-    }
-    
-    #offers-list {
-        margin-left: 200px;  
-    }
-
-    #prices {
-        margin: 0px 30px 20px 50px;
-        width: 90%;
-    }
-    
-    #prices div {
-        width: 100%;
-        height: 300px;
-        clear: both;
-        float: left;
-        padding: 25px;
-    }   
-
-    #lessons {
-        height: 600px;
-    }
-
-    #lessons div {
-        width: 50%;
-        height: 300px;
-        float: left;
-        padding: 10px;
-    }
-
-    #contact-text {
-        right: 40px;
-    }
-
-    .contactus-form {
-        left: 18%;
-    }
-}
-
-/* for small screen sizes from 800px wide and down */
-@media screen and (max-width: 800px) {
-    
-    #yoga-bens-techs {
-        height: 2510px;
-    }
-
-    #bens-techs-left {
-        width: 80%;
-        margin-left: 90px;
-        margin-top: 10px;
-    }
-    
-    #bens-techs-right {
-        width: 80%;
-        margin-right: 55px;
-        margin-top: 5px;
-    }
-
-    #about {
-        width: 91%;
-    }
-
-    #offers {
-        margin-left: 100px;
+        margin-left: 120px;
+        margin-bottom: 15px;
     }
     
     #offers-list {
         margin-left: 150px;  
     }
 
-    #prices {
-        margin: 0px 30px 20px 40px;
-        width: 90%;
+    /* prices */
+
+    .prices-heading {
+        margin-bottom: 20px;
+    }
+    
+    .prices-gps {
+        margin-bottom: 20px;
     }
 
+    #prices div {
+        height: 325px;
+    }
+
+    /* plan lessons */
+    #lessons {
+        height: 325px;
+    }
+
+    #lessons div {
+        height: 325px;
+        padding: 15px;
+    }
+
+    /* cover on contact us page */
     #contact-text {
-        bottom: 25px;
-        right: 30px;
+        width: 375px;
+        right: 60px;
     }
 
+    /* contact us form */
     .contactus-form {
-        left: 12%;
+        left: 28%;
     }
 }
