@@ -1,4 +1,4 @@
-/* Media queries*/
+/* Media queries */
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -19,7 +19,6 @@ body {
 }
 
 /* headings and logo */
-
 h1, h2, h3 {
     font-family: Oswald, sans-serif;
     color: black;
@@ -34,7 +33,6 @@ h1, h2, h3 {
 }
 
 /* navigation links */
-
 #menu {
     font-size: 110%;
     letter-spacing: 1px;
@@ -74,13 +72,13 @@ h1, h2, h3 {
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
 
-    /* animates zoom effect on hero image*/
+    /* animates zoom effect on hero image */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
-/* creates the level of zoom for hero image*/
+/* creates the level of zoom for hero image */
 @keyframes hero-zoom {
     from {
         transform: scale(1);
@@ -90,7 +88,7 @@ h1, h2, h3 {
     }
 }
 
-/* cover on home page*/
+/* cover on home page */
 #cover-text {
     font-size: 100%;
     font-family: Oswald, sans-serif;
@@ -582,7 +580,7 @@ input[type=reset] {
   ##Screen = B/w 1025px to 1280px
 */
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
-    /* cover on home page*/
+    /* cover on home page */
     #cover-text {
         right: 100px;
     }
@@ -621,7 +619,6 @@ input[type=reset] {
     }
 
     /* prices */
-
     .prices-heading {
         margin-bottom: 20px;
     }
@@ -655,3 +652,104 @@ input[type=reset] {
         left: 28%;
     }
 }
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* navigation links */
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 20px;
+    }
+
+    /* cover on home page */
+    #cover-text {
+        left: 25px;
+    }
+
+    /* yoga benefits & techniques */
+    .bens-techs-left {
+        width: 80%;
+        margin: 10px 120px 10px 90px;
+    }
+    
+    .bens-techs-right {
+        width: 80%;
+        margin: 10px 100px 10px 150px;
+    }
+
+    /* about us */
+    #about {
+        width: 92%;
+    }
+
+    .about-heading {
+        margin-bottom: 20px;
+    }
+    #provisions {
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+
+    #offers {
+        margin-left: 120px;
+        margin-bottom: 15px;
+    }
+    
+    #offers-list {
+        margin-left: 150px;  
+    }
+
+    /* prices */
+    #prices {
+        width: 85%;
+    }
+    
+    #prices div {
+        width: 100%;
+        height: auto;
+        clear: both;
+        float: left;
+        padding: 25px;
+    } 
+    
+    /* plan lessons */
+    #lessons {
+        height: 560px;
+    }
+
+    #lessons div {
+        width: 50%;
+        height: 280px;
+        float: left;
+        padding: 10px;
+    }
+
+    /* cover on contact us page */
+    #contact-text {
+        width: 375px;
+        right: 50px;
+    }
+
+    /* contact us form */
+    .contactus-form {
+        left: 25%;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {  
+    /* gallery */
+    #images {
+        column-count: 2;
+    }
+}
+
