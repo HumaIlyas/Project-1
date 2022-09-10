@@ -604,6 +604,7 @@ input[type=reset] {
     .about-heading {
         margin-bottom: 20px;
     }
+    
     #provisions {
         line-height: 30px;
         margin-bottom: 15px;
@@ -691,6 +692,7 @@ input[type=reset] {
     .about-heading {
         margin-bottom: 20px;
     }
+
     #provisions {
         line-height: 30px;
         margin-bottom: 15px;
@@ -716,7 +718,21 @@ input[type=reset] {
         clear: both;
         float: left;
         padding: 25px;
-    } 
+    }
+
+    .prices-heading {
+        margin-bottom: 20px;
+    }
+
+    .prices-gps {
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .prices-list {
+        line-height: 28px;
+        margin-left: 40px;    
+    }
     
     /* plan lessons */
     #lessons {
@@ -728,6 +744,11 @@ input[type=reset] {
         height: 280px;
         float: left;
         padding: 10px;
+    }
+
+    .list {
+        margin-left: 40px;
+        margin-right: 40px;
     }
 
     /* cover on contact us page */
@@ -753,3 +774,121 @@ input[type=reset] {
     }
 }
 
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    /* headings and logo */
+    #logo {
+        margin-left: 25px;
+    }
+
+    /* navigation links */
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 20px;
+    }
+
+    /* cover on home page */
+    #cover-text {
+        left: 25px;
+    }
+
+    /* yoga benefits & techniques */
+    .bens-techs-left {
+        width: 80%;
+        margin: 10px 20px 10px 50px;
+    }
+    
+    .bens-techs-right {
+        width: 80%;
+        margin: 10px 80px 10px 50px;
+    }
+
+    /* about us */
+    #about {
+        width: 86%;
+    }
+
+    .about-heading {
+        margin-bottom: 20px;
+    }
+
+    #provisions {
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+
+    #offers {
+        margin-left: 60px;
+        margin-bottom: 15px;
+    }
+    
+    #offers-list {
+        margin-left: 70px;  
+    }
+
+    /* prices */
+    #prices {
+        width: 85%;
+    }
+    
+    #prices div {
+        width: 100%;
+        height: auto;
+        clear: both;
+        float: left;
+        padding: 20px;
+    } 
+    
+    .prices-heading {
+        margin-bottom: 20px;
+    }
+    
+    .prices-gps {
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .prices-list {
+        line-height: 25px;
+        margin-left: 40px;    
+    }
+
+    /* plan lessons */
+    #lessons {
+        height: auto;
+    }
+
+    #lessons div {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+
+    .list {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    /* gallery */
+    #images {
+        column-count: 2;
+    }
+
+    /* cover on contact us page */
+    #contact-text {
+        width: 375px;
+        bottom: 15px;
+        right: 20px;
+    }
+
+    /* contact us form */
+    .contactus-form {
+        left: 15%;
+    }
+}
