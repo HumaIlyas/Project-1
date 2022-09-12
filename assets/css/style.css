@@ -576,6 +576,56 @@ button[type=reset] {
     display: inline-block;
 }
 
+/* submission message*/
+#submission-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#submission-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/yoga.jpg') no-repeat center center;
+
+    /* animates zoom effect on submission page*/
+    animation-name: submission-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for image on submission page*/
+@keyframes submission-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.4);
+    }
+}
+
+/* message on submission page */
+#submission-text {
+    font-size: 120%;
+    font-family: Oswald, sans-serif;
+    line-height: 35px;
+    text-align: center;
+    width: 310px;
+    height: 100px;
+    padding: 20px;
+    background-color: rgb(239, 200, 200, 0.8);
+    color: rgb(109, 10, 10);
+    bottom: 150px;
+    left: 250px;
+    position: absolute;
+}
+
+#submission-text h3 {
+    text-transform: none;
+}
+
 /* 
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
@@ -762,6 +812,12 @@ button[type=reset] {
     .contactus-form {
         left: 25%;
     }
+
+    /* message on submission page */
+    #submission-text {
+        bottom: 150px;
+        left: 300px;
+    }
 }
 
 /* 
@@ -772,6 +828,12 @@ button[type=reset] {
     /* gallery */
     #images {
         column-count: 2;
+    }
+
+    /* message on submission page */
+    #submission-text {
+        bottom: 150px;
+        left: 200px;
     }
 }
 
@@ -891,6 +953,12 @@ button[type=reset] {
     /* contact us form */
     .contactus-form {
         left: 15%;
+    }
+
+    /* message on submission page */
+    #submission-text {
+        bottom: 250px;
+        left: 75px;
     }
 }
 
@@ -1089,4 +1157,14 @@ button[type=reset] {
     .message {
         margin: 5px 0 10px;
     } 
+
+    /* message on submission page */
+    #submission-text {
+        font-size: 100%;
+        width: 250px;
+        height: 100px;
+        padding: 15px;
+        bottom: 150px;
+        left: 20px;
+    }
 }
