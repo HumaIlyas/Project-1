@@ -1,9 +1,14 @@
 # Yoga For Self-improvement
+
 Yoga For Self-improvement is a site for users who are interested in learning body and mind self-improvement techniques to keep themselves fit as well as looking for a place for socialization. The goal of the site is to motivate and teach user’s specific body and mind self-improvement techniques in Delft, The Netherlands.
 
-<img src="assets/images/different-screen-sizes.jpg" alt="Website on different screen sizes">
+<img src="assets/images/different-screen-sizes.jpg" alt="Website on different screen sizes"></br>
 
+## [View live website](https://humailyas.github.io/Project-1/)
+
+___
 # Table of contents
+
 - [UX](#ux)
     - [Website owner goals](#website-owner-goals)
     - [External user goals](#external-user-goals)
@@ -52,6 +57,7 @@ The main goals of the website returning user are:
 * To be able to send a message to the instructor using a contact form.
 
 ## User stories
+
 ### As a website owner
 * I want that make sure that users are able to use the website intuitively and easily.
 * I would like to present the information about the provisions and opportunities for yoga at Delft Body & Mind Center. 
@@ -86,18 +92,17 @@ Main colours used in the development of Yoga for Self-improvement:
 * Social-networks: rgb(109, 10, 10)
 
 ### Fonts 
-
 * As a main font lato and as a backup font sans-serif are used for the contents of the website.
 * As a main font Oswald and as a backup font sans-serif are used for the headings of the website.
 
 ### Images
-
 * Images are taken from [Google Images](https://images.google.nl/) which is credited in [credits](#credits) section.
 
 [Back to Table of contents](#table-of-contents)
 
 ___
 # Features
+
 ## Navigation Bar
 The full responsive navigation bar is featured on all three pages to allow for easy navigation from page to page across all devices.
 * On the left side is logo, which can be used as navigation link to the main page.
@@ -105,7 +110,7 @@ The full responsive navigation bar is featured on all three pages to allow for e
 
 <img src="assets/images/nav-bar.jpg" alt="navigation bar">
 
-## The Footer
+## Footer
 The footer section is consistent on all pages and includes links to the relevant social media sites for Yoga For Self-improvement.
 * The links will open in a separate tab in a browser to allow easy navigation for the users.
 * The footer is useful for yoga learners to get connected with the community for socialization through social networks.
@@ -155,17 +160,24 @@ This page will allow yoga learners to get connected to Yoga for Self-improvement
 
 ___
 # Technologies used
+
 Different technologies were used to complete the contents of Yoga for Self-improvement website.
+
 ### GitHub
 * As a software hosting platform to keep project in a remote location.
+
 ### Git
 * As a version-control system tracking.
+
 ### Gitpod  
 * As a development hosting platform.
+
 ### HTML5
 * As a structure language.
+
 ### CSS
 * As a style language.
+
 ### Font Awesome
 * As an icon library for icons used in benefits of yoga section, social links and Contact Us page.
 
@@ -174,8 +186,10 @@ ___
 
 ## Code validation
 Yoga For Self-improvement is validated for a code using two websites.
+
 ### HTML
 * No errors were found when passing through the official [The W3C Markup Validation Service](https://validator.w3.org/)
+
 ### CSS
 * No errors were found when passing through the official [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
  
@@ -199,18 +213,23 @@ Chrome developer tools were used throughout the project for testing and solving 
 <img src="assets/images/accessibility-mobile.jpg" alt="Accessibility on mobile">
 
 ## Issues found during site development
-### Horizontal scrolling bar on the bottom of the screen
-Horizontal scrolling bar appeared on the bottom of the screen while adding different sections on the pages. 
-* I adjusted the margins to 0 and auto in about-us and prices section.
-* I adjusted this issue by adding a code overflow-x to hidden.
 
-{Screen shots to show issues}
+### Horizontal scrolling bar on the bottom of the screen
+* Horizontal scrolling bar appeared on the bottom of the screen while adding different sections on the pages. 
+   * I adjusted the margins to 0 and auto in about-us and prices section.
+   * I adjusted this issue by adding a code overflow-x to hidden.
+   
+### Space between the two sections on different screen sizes
+* The space between the two sections increases with increasing the screen sizes.
+    * I adjuste this issue by adding the overflow-y to scroll in the relevant section (benefits and techniques of yoga).
 
 [Back to Table of contents](#table-of-contents)
 
 ___
 # Deployment
+
 The website was deployed on GitHub pages. Gitpod was used as a development environment where all the changes were committed to git version control system. The push command was used in Gitpod to save changes into GitHub.
+
 The following steps were taken to deploy the website:
 * Open the GitHub repository, navigate to the Settings tab
 * From the source section, select the Main Branch
@@ -222,7 +241,8 @@ The following steps were taken to deploy the website:
 
 ___
 # Credits
-To complete the contents of Yoga for Self-improvement website, I learned and collected information from different sources
+
+To complete the contents of Yoga for Self-improvement website, I learned and collected information from different sources.
 * Learned HTML and CSS coding from [Code Institute](https://learn.codeinstitute.net/)
 * Used Code Institute student template [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
 * Collected information on good and bad coding practices from:
@@ -236,6 +256,7 @@ To complete the contents of Yoga for Self-improvement website, I learned and col
 * The temperature of slow flow & meditation was selected by getting information from [Slow Flow-Yoga Moves](https://www.yogamoves.nl/class-styles/slow-flow)
 * The information about prices for yoga lessons and cards was taken from [Yoga Class Prices](https://www.yogashala.nl/en/prices/)
 * The icons used in the benefits and techniques of yoga section, footer, and contact us form were taken from [Font Awesome](https://fontawesome.com/)
+* The code to make the social networks links was taken from [Code Institute Love Running Project](https://github.com/Code-Institute-Org/love-running-2.0)
 
 ## Media
 * The images used on the Home, Gallery and Contact Us pages were taken from [Google Images](https://images.google.nl/)
