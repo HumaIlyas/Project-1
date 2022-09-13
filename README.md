@@ -2,7 +2,7 @@
 
 Yoga For Self-improvement is a site for users who are interested in learning body and mind self-improvement techniques to keep themselves fit as well as looking for a place for socialization. The goal of the site is to motivate and teach user’s specific body and mind self-improvement techniques in Delft, The Netherlands.
 
-<img src="assets/images/different-screen-sizes.jpg" alt="Website on different screen sizes"></br>
+<img src="assets/images/different-screen-sizes.jpg" alt="Website on different screen sizes">
 
 ## [View live website](https://humailyas.github.io/Project-1/)
 
@@ -35,7 +35,7 @@ The main goals of the website owner are:
 * To provide a website to show benefits and techniques of yoga for body and mind self-improvement.
 * To provide the information about the provisions and opportunities for yoga learners at Delft Body & Mind Center.
 * To invite yoga learners for different types of yoga lessons and classes.
-* To provide the possibility of socialization for other yoga learners.
+* To provide the possibility of socialization for yoga learners.
 * To present an offer about the prices for classes and cards for yoga lessons.
 
 ## External user goals
@@ -48,7 +48,7 @@ The main goals of the website new user are:
 * To get the information about the provisions and opportunities for yoga at Delft Body & Mind Center.
 * To get the schedule for different types of yoga lessons and classes.
 * To get the possibility of socialization with other yoga learners.
-* To get the information about the prices for classes for yoga lessons.
+* To get the information about the prices for yoga lessons.
 * To find the location of the center and contact details.
 
 ### Returning user goals
@@ -59,11 +59,11 @@ The main goals of the website returning user are:
 ## User stories
 
 ### As a website owner
-* I want that make sure that users are able to use the website intuitively and easily.
+* I want to make sure that users are able to use the website intuitively and easily.
 * I would like to present the information about the provisions and opportunities for yoga at Delft Body & Mind Center. 
 * I would like to present an offer about the prices for classes and cards for yoga lessons on the website clearly to potential customers.
 * I need to make sure that the information on the website is always up to date.
-* I need to make sure that new and current customers will find a professional help with learning yoga techniques.
+* I need to make sure that new and current customers will find a professional help for learning yoga techniques.
 * I would like to keep the possibility of socialization for new and current yoga learners.
 
 ### As a new customer
@@ -82,8 +82,8 @@ The main goals of the website returning user are:
 ## Surface
 
 ### Colors
-Main colours used in the development of Yoga for Self-improvement:
-* background color: rgb(239, 200, 200, 0.8); rgba(231, 219, 219, 0.6); rgba(248, 244, 244, 0.6); rgb(246, 224, 224, 0.8); rgb(247, 238, 238); #f69e9e;
+Main colours used in the development of Yoga For Self-improvement:
+* background color: rgba(239, 200, 200, 0.8); rgba(231, 219, 219, 0.6); rgba(248, 244, 244, 0.6); rgba(246, 224, 224, 0.8); rgb(247, 238, 238); #f69e9e;
 * font color: rgb(30, 27, 27); rgb(109, 10, 10); rgb(69, 6, 6); #fafafa
 * link color: rgb(30, 27, 27)
 * hover color: rgb(30, 27, 27); rgb(109, 10, 10); #f35050
@@ -96,7 +96,7 @@ Main colours used in the development of Yoga for Self-improvement:
 * As a main font Oswald and as a backup font sans-serif are used for the headings of the website.
 
 ### Images
-* Images are taken from [Google Images](https://images.google.nl/) which is credited in [credits](#credits) section.
+* Images are taken from [Google Images](https://images.google.nl/), which is credited in [credits](#credits) section.
 
 [Back to Table of contents](#table-of-contents)
 
@@ -119,12 +119,12 @@ The footer section is consistent on all pages and includes links to the relevant
 
 ## Home
 * The home page includes a photograph with cover text for the users to get information about the location of Delft Body & Mind Center.
-* This inclusion of an eye-catching animation draws the attention of yoga learners to Yoga for Self-improvement.
+* This inclusion of an eye-catching animation draws the attention of yoga learners to Yoga For Self-improvement.
 
 <img src="assets/images/home-page.jpg" alt="Home page">
 
 ### Benefits & Techniques Section
-The benefits and techniques section provides information about the benefits and techniques of yoga. In this section the types of yoga pose with description is also provided to get body and mind self-improvement. 
+The benefits and techniques section provides information about the benefits and techniques of yoga. In this section the types of yoga poses with description are also provided to get body and mind self-improvement. 
 
 <img src="assets/images/benefits-techniques-yoga.jpg" alt="Benefits & techniques of yoga">
 
@@ -149,7 +149,7 @@ The gallery page will provide images to the yoga learners to have some informati
 <img src="assets/images/gallery.jpg" alt="Gallery section">
 
 ## Contact Us 
-This page will allow yoga learners to get connected to Yoga for Self-improvement to start learning yoga techniques and socialize with other yoga learners.
+This page will allow yoga learners to get connected to Yoga For Self-improvement to start learning yoga techniques and socialize with other yoga learners.
 
 <img src="assets/images/contact-us-details.jpg" alt="Contact details">
 
@@ -161,7 +161,7 @@ This page will allow yoga learners to get connected to Yoga for Self-improvement
 ___
 # Technologies used
 
-Different technologies were used to complete the contents of Yoga for Self-improvement website.
+Different technologies were used to complete the contents of Yoga For Self-improvement website.
 
 ### GitHub
 * As a software hosting platform to keep project in a remote location.
@@ -179,7 +179,7 @@ Different technologies were used to complete the contents of Yoga for Self-impro
 * As a style language.
 
 ### Font Awesome
-* As an icon library for icons used in benefits of yoga section, social links and Contact Us page.
+* As an icon library for icons used in benefits and techniques of yoga section, social links and contact us page.
 
 ___
 # Testing
@@ -214,14 +214,16 @@ Chrome developer tools were used throughout the project for testing and solving 
 
 ## Issues found during site development
 
-### Horizontal scrolling bar on the bottom of the screen
-* Horizontal scrolling bar appeared on the bottom of the screen while adding different sections on the pages. 
-   * I adjusted the margins to 0 and auto in about-us and prices section.
-   * I adjusted this issue by adding a code overflow-x to hidden.
+### Horizontal scrol bar on the bottom of the screen
+* Horizontal scrol bar appeared on the bottom of the screen while adding different sections on the pages. 
+I adjusted this issue:
+   * By adding margins to 0 and auto in about-us and prices section.
+   * By adding a code overflow-x to hidden for the body.
    
 ### Space between the two sections on different screen sizes
 * The space between the two sections increases with increasing the screen sizes.
-    * I adjuste this issue by adding the overflow-y to scroll in the relevant section (benefits and techniques of yoga).
+I adjusted this issue:
+    * By adding the overflow-y to scroll in the relevant section (benefits and techniques of yoga).
 
 [Back to Table of contents](#table-of-contents)
 
@@ -242,7 +244,7 @@ The following steps were taken to deploy the website:
 ___
 # Credits
 
-To complete the contents of Yoga for Self-improvement website, I learned and collected information from different sources.
+To complete the contents of Yoga For Self-improvement website, I learned and collected information from different sources.
 * Learned HTML and CSS coding from [Code Institute](https://learn.codeinstitute.net/)
 * Used Code Institute student template [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
 * Collected information on good and bad coding practices from:
