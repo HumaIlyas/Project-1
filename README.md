@@ -1,5 +1,4 @@
 # Yoga For Self-improvement
-
 Yoga For Self-improvement is a site for users who are interested in learning body and mind self-improvement techniques to keep themselves fit as well as looking for a place for socialization. The goal of the site is to motivate and teach user’s specific body and mind self-improvement techniques in Delft, The Netherlands.
 
 <img src="assets/images/different-screen-sizes.jpg" alt="Website on different screen sizes">
@@ -7,8 +6,7 @@ Yoga For Self-improvement is a site for users who are interested in learning bod
 ## [View live website](https://humailyas.github.io/Project-1/)
 
 ___
-# Table of contents
-
+# Table of contents</br>
 - [UX](#ux)
     - [Website owner goals](#website-owner-goals)
     - [External user goals](#external-user-goals)
@@ -16,6 +14,12 @@ ___
     - [Structure of the website](#structure-of-the-website)
     - [Surface](#surface)
 - [Features](#features)
+    - [Navigation bar](#navigation-bar)
+    - [Footer](#footer)
+    - [Home](#home)
+    - [Gallery](#gallery)
+    - [Contact us](#contact-us)
+    - [Submission message](#submission-message)
 - [Technologies used](#technologies-used)
 - [Testing](#testing)
     - [Code validation](#code-validation)
@@ -32,7 +36,7 @@ ___
 ## Website owner goals
 The main goals of the website owner are:
 * To teach users specific body and mind self-improvement techniques.
-* To provide a website to show benefits and techniques of yoga for body and mind self-improvement.
+* To provide a website to show benefits & techniques of yoga for body and mind self-improvement.
 * To provide the information about the provisions and opportunities for yoga learners at Delft Body & Mind Center.
 * To invite yoga learners for different types of yoga lessons and classes.
 * To provide the possibility of socialization for yoga learners.
@@ -44,7 +48,7 @@ The main goals of the website user are different for the new and returning users
 ### New user goals
 The main goals of the website new user are:
 * To learn body and mind self-improvement techniques.
-* To get the knowledge about the benefits and techniques of yoga for body and mind self-improvement.
+* To get the knowledge about the benefits & techniques of yoga for body and mind self-improvement.
 * To get the information about the provisions and opportunities for yoga at Delft Body & Mind Center.
 * To get the schedule for different types of yoga lessons and classes.
 * To get the possibility of socialization with other yoga learners.
@@ -83,13 +87,13 @@ The main goals of the website returning user are:
 
 ### Colors
 Main colours used in the development of Yoga For Self-improvement:
-* background color: rgba(239, 200, 200, 0.8); rgba(231, 219, 219, 0.6); rgba(248, 244, 244, 0.6); rgba(246, 224, 224, 0.8); rgb(247, 238, 238); #f69e9e;
+* background color: rgba(239, 200, 200, 0.8); rgba(231, 219, 219, 0.6); rgba(248, 244, 244, 0.6); rgba(246, 224, 224, 0.8); rgb(247, 238, 238); #f69e9e
 * font color: rgb(30, 27, 27); rgb(109, 10, 10); rgb(69, 6, 6); #fafafa
 * link color: rgb(30, 27, 27)
 * hover color: rgb(30, 27, 27); rgb(109, 10, 10); #f35050
-* Horizontal line: #3a3a3a
-* Border color: rgb(199, 197, 197); #fafafa; rgb(246, 224, 224)
-* Social-networks: rgb(109, 10, 10)
+* horizontal line: #3a3a3a
+* border color: rgb(199, 197, 197); #fafafa; rgb(246, 224, 224)
+* social networks: rgb(109, 10, 10)
 
 ### Fonts 
 * As a main font lato and as a backup font sans-serif are used for the contents of the website.
@@ -103,7 +107,7 @@ Main colours used in the development of Yoga For Self-improvement:
 ___
 # Features
 
-## Navigation Bar
+## Navigation bar
 The full responsive navigation bar is featured on all three pages to allow for easy navigation from page to page across all devices.
 * On the left side is logo, which can be used as navigation link to the main page.
 * On the right side are links to the Home, Gallery and Contact Us pages.
@@ -123,12 +127,12 @@ The footer section is consistent on all pages and includes links to the relevant
 
 <img src="assets/images/home-page.jpg" alt="Home page">
 
-### Benefits & Techniques Section
-The benefits and techniques section provides information about the benefits and techniques of yoga. In this section the types of yoga poses with description are also provided to get body and mind self-improvement. 
+### Benefits & techniques of yoga
+The benefits & techniques of yoga section provides information about the benefits and techniques of yoga. In this section the types of yoga poses with description are also provided to get body and mind self-improvement. 
 
 <img src="assets/images/benefits-techniques-yoga.jpg" alt="Benefits & techniques of yoga">
 
-### About Us
+### About us
 About Us section provides information about the provisions and opportunities for yoga learners at Delft Body & Mind Center. The different types of lessons and prices for classes and cards are also given in this section.
 
 <img src="assets/images/about-us.jpg" alt="About us section">
@@ -148,7 +152,7 @@ The gallery page will provide images to the yoga learners to have some informati
 
 <img src="assets/images/gallery.jpg" alt="Gallery section">
 
-## Contact Us 
+## Contact us 
 This page will allow yoga learners to get connected to Yoga For Self-improvement to start learning yoga techniques and socialize with other yoga learners.
 
 <img src="assets/images/contact-us-details.jpg" alt="Contact details">
@@ -157,6 +161,13 @@ This page will allow yoga learners to get connected to Yoga For Self-improvement
 * Yoga learners will be asked to submit their first name, last name, email address, and message to the administration.
 
 <img src="assets/images/contact-us-form.jpg" alt="Contact us form">
+
+## Submission message 
+This page will allow yoga learners to get informed that their message has been successfully sent and they will get response from the administration shortly.
+
+<img src="assets/images/submission-message.jpg" alt="Submission message">
+
+[Back to Table of contents](#table-of-contents)
 
 ___
 # Technologies used
@@ -179,7 +190,9 @@ Different technologies were used to complete the contents of Yoga For Self-impro
 * As a style language.
 
 ### Font Awesome
-* As an icon library for icons used in benefits and techniques of yoga section, social links and contact us page.
+* As an icon library for icons used in benefits & techniques of yoga section, social links and contact us page.
+
+[Back to Table of contents](#table-of-contents)
 
 ___
 # Testing
@@ -214,16 +227,16 @@ Chrome developer tools were used throughout the project for testing and solving 
 
 ## Issues found during site development
 
-### Horizontal scrol bar on the bottom of the screen
-* Horizontal scrol bar appeared on the bottom of the screen while adding different sections on the pages. 
+### Horizontal scroll bar on the bottom of the screen
+* Horizontal scroll bar appeared on the bottom of the screen while adding different sections on the pages.</br>
 I adjusted this issue:
-   * By adding margins to 0 and auto in about-us and prices section.
-   * By adding a code overflow-x to hidden for the body.
+   * By adding a code "margin: 0 auto" in about-us and prices section.
+   * By adding a code "overflow-x: hidden" in the body.
    
 ### Space between the two sections on different screen sizes
-* The space between the two sections increases with increasing the screen sizes.
+* The space between the two sections increases with increasing the screen sizes.</br>
 I adjusted this issue:
-    * By adding the overflow-y to scroll in the relevant section (benefits and techniques of yoga).
+    * By adding a code "overflow-y: scroll" for vertical scroll bar in the relevant section (benefits & techniques of yoga).
 
 [Back to Table of contents](#table-of-contents)
 
@@ -257,7 +270,7 @@ To complete the contents of Yoga For Self-improvement website, I learned and col
 * The temperature of Hot Yoga was selected by getting information from [Hot Yoga](https://www.yogapedia.com/definition/10696/hot-yoga)
 * The temperature of slow flow & meditation was selected by getting information from [Slow Flow-Yoga Moves](https://www.yogamoves.nl/class-styles/slow-flow)
 * The information about prices for yoga lessons and cards was taken from [Yoga Class Prices](https://www.yogashala.nl/en/prices/)
-* The icons used in the benefits and techniques of yoga section, footer, and contact us form were taken from [Font Awesome](https://fontawesome.com/)
+* The icons used in the benefits & techniques of yoga section, footer, and contact us form were taken from [Font Awesome](https://fontawesome.com/)
 * The code to make the social networks links was taken from [Code Institute Love Running Project](https://github.com/Code-Institute-Org/love-running-2.0)
 
 ## Media
