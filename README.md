@@ -6,7 +6,7 @@ Yoga For Self-improvement is a site for users who are interested in learning bod
 ## [View live website](https://humailyas.github.io/Project-1/)
 
 ___
-# Table of contents</br>
+# Table of contents
 - [UX](#ux)
     - [Website owner goals](#website-owner-goals)
     - [External user goals](#external-user-goals)
@@ -216,7 +216,7 @@ Chrome developer tools were used throughout the project for testing and solving 
 [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool was used to check the performance of the website.
 * Couple of changes were made to improve the performance.
 
-### Final results:
+### Final results
 * The colors and fonts chosen are easy to read and accessible on desktop. 
 
 <img src="assets/images/accessibility-desktop.jpg" alt="Accessibility on desktop">
