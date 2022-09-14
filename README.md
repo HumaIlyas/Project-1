@@ -1,7 +1,8 @@
 # Yoga For Self-improvement
 Yoga For Self-improvement is a site for users who are interested in learning body and mind self-improvement techniques to keep themselves fit as well as looking for a place for socialization. The goal of the site is to motivate and teach user’s specific body and mind self-improvement techniques in Delft, The Netherlands.
-
-<img src="assets/images/different-screen-sizes.jpg" alt="Website on different screen sizes">
+<div style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="assets/images/different-screen-sizes.jpg" alt="Website on different screen sizes">
+</div>
 
 ## [View live website](https://humailyas.github.io/Project-1/)
 
@@ -111,61 +112,72 @@ ___
 The full responsive navigation bar is featured on all three pages to allow for easy navigation from page to page across all devices.
 * On the left side is logo, which can be used as navigation link to the main page.
 * On the right side are links to the Home, Gallery and Contact Us pages.
-
-<img src="assets/images/nav-bar.jpg" alt="navigation bar">
+<div style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="assets/images/nav-bar.jpg" alt="navigation bar">
+</div>
 
 ## Footer
 The footer section is consistent on all pages and includes links to the relevant social media sites for Yoga For Self-improvement.
 * The links will open in a separate tab in a browser to allow easy navigation for the users.
 * The footer is useful for yoga learners to get connected with the community for socialization through social networks.
-
-<img src="assets/images/footer.jpg" alt="Footer">
+<div style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="assets/images/footer.jpg" alt="Footer">
+</div>
 
 ## Home
 * The home page includes a photograph with cover text for the users to get information about the location of Delft Body & Mind Center.
 * This inclusion of an eye-catching animation draws the attention of yoga learners to Yoga For Self-improvement.
-
-<img src="assets/images/home-page.jpg" alt="Home page">
+<div style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="assets/images/home-page.jpg" alt="Home page">
+</div>
 
 ### Benefits & techniques of yoga
 The benefits & techniques of yoga section provides information about the benefits and techniques of yoga. In this section the types of yoga poses with description are also provided to get body and mind self-improvement. 
-
-<img src="assets/images/benefits-techniques-yoga.jpg" alt="Benefits & techniques of yoga">
+<div style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="assets/images/benefits-techniques-yoga.jpg" alt="Benefits & techniques of yoga">
+</div>
 
 ### About us
 About Us section provides information about the provisions and opportunities for yoga learners at Delft Body & Mind Center. The different types of lessons and prices for classes and cards are also given in this section.
-
-<img src="assets/images/about-us.jpg" alt="About us section">
+<div style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="assets/images/about-us.jpg" alt="About us section">
+</div>
 
 ### Prices
 This section provides information about the classes and cards for the yoga lessons as well as the validity of the cards.
-
-<img src="assets/images/prices.jpg" alt="Prices section">
+<div style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="assets/images/prices.jpg" alt="Prices section">
+</div>
 
 ### Lessons 
 This section provides information about the yoga lessons available on different days of the week as well as the possibility of socialization with other yoga learners at the weekend.
-
-<img src="assets/images/lessons-times.jpg" alt="Lessons & times section"> 
+<div style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="assets/images/lessons-times.jpg" alt="Lessons & times section"> 
+</div>
 
 ## Gallery
 The gallery page will provide images to the yoga learners to have some information about yoga poses. The yoga learners will be able to identify the types of poses according to their needs.
-
-<img src="assets/images/gallery.jpg" alt="Gallery section">
+<div style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="assets/images/gallery.jpg" alt="Gallery section">
+</div>
 
 ## Contact us 
 This page will allow yoga learners to get connected to Yoga For Self-improvement to start learning yoga techniques and socialize with other yoga learners.
-
-<img src="assets/images/contact-us-details.jpg" alt="Contact details">
+<div style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="assets/images/contact-us-details.jpg" alt="Contact details">
+</div>
 
 * Yoga learners will be able to select among the types of lessons we offer at Delft Body & Mind Center.
 * Yoga learners will be asked to submit their first name, last name, email address, and message to the administration.
-
-<img src="assets/images/contact-us-form.jpg" alt="Contact us form">
+<div style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="assets/images/contact-us-form.jpg" alt="Contact form">
+</div>
 
 ## Submission message 
 This page will allow yoga learners to get informed that their message has been successfully sent and they will get response from the administration shortly.
-
+<div style="margin-top: 20px; margin-bottom: 20px;">
 <img src="assets/images/submission-message.jpg" alt="Submission message">
+</div>
 
 [Back to Table of contents](#table-of-contents)
 
@@ -218,23 +230,25 @@ Chrome developer tools were used throughout the project for testing and solving 
 
 ### Final results
 * The colors and fonts chosen are easy to read and accessible on desktop. 
-
-<img src="assets/images/accessibility-desktop.jpg" alt="Accessibility on desktop">
+<div style="margin-top: 20px; margin-bottom: 20px;">
+    <img src="assets/images/accessibility-desktop.jpg" alt="Accessibility on desktop">
+</div>
 
 * The colors and fonts chosen are easy to read and accessible on mobile.
-
+<div style="margin-top: 20px; margin-bottom: 20px;">
 <img src="assets/images/accessibility-mobile.jpg" alt="Accessibility on mobile">
+</div>
 
 ## Issues found during site development
 
 ### Horizontal scroll bar on the bottom of the screen
-* Horizontal scroll bar appeared on the bottom of the screen while adding different sections on the pages.</br>
+* Horizontal scroll bar appeared on the bottom of the screen while adding different sections on the pages.<br>
 I adjusted this issue:
    * By adding a code "margin: 0 auto" in about-us and prices section.
    * By adding a code "overflow-x: hidden" in the body.
    
 ### Space between the two sections on different screen sizes
-* The space between the two sections increases with increasing the screen sizes.</br>
+* The space between the two sections increases with increasing the screen sizes.<br>
 I adjusted this issue:
     * By adding a code "overflow-y: scroll" for vertical scroll bar in the relevant section (benefits & techniques of yoga).
 
