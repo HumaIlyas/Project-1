@@ -288,4 +288,4 @@ To complete the contents of Yoga For Self-Improvement website, I learned coding 
 * The code to make the social networks links was taken from [Code Institute Love Running Project](https://github.com/Code-Institute-Org/love-running-2.0)
 
 ## Media
-* The images used on the Home, Gallery, Contact Us and submission message pages were taken from [Google Images](https://images.google.nl/)
+* The images used on the Home, Gallery, Contact Us and Submission message pages were taken from [Google Images](https://images.google.nl/)
